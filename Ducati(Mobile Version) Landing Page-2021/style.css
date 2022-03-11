@@ -1,0 +1,332 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header img
+{
+	width: 120px;
+	height: 120px;
+	margin-left: 1%;
+	margin-top: 0.4%; 
+	
+}
+
+.header .nav
+{
+	float: right;
+	margin-top: 3%;
+	margin-right: 2%;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 20px;
+	transition: 0.4s ease;
+}
+
+
+.nav b
+{
+	
+	padding: 5px 60px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	
+
+}
+
+.header .nav:hover
+{
+	background-color: black;
+}
+
+
+.content
+{
+	background-image: url("333.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-position: fixed;
+	margin-top: 9%;
+}
+
+.content h1
+{
+	font-size: 4rem;
+	color: white;
+    padding-top: 7px;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Oswald', sans-serif ,italic;
+    letter-spacing: 1px;
+
+}
+
+.content strong p
+{
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+	
+}
+
+.booking
+{
+  margin-left: 43%;	
+  background-color: #d40000;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.booking h3
+{
+	padding: 5px 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	
+}
+
+.booking:hover
+{
+	color: white;
+	background-color: black;
+	
+}
+
+.container
+{
+	width: 26.5%;
+	height: 50%;
+	background-color: white;
+	border: 2px solid black;
+	margin-left: 1%;
+	margin-top: 18%;
+	float: left;
+	border: 1px solid;
+	padding: 1px;
+	box-shadow: 5px 10px 8px black;
+}
+
+.container h3
+{
+	font-family: poppins;
+	font-size: 3rem;
+}
+
+.container .spot
+{
+    width: 80%;
+    height: 60%;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #d40000;
+	border: none;
+	margin-left: 9%;
+	border-radius: 4%;
+	transition: 0.3s ease;
+}
+
+.container .spot b
+{
+	font-size: 1.3rem;
+	font-family: poppins,sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+.container .spot:hover
+{
+   background-color: black;
+}
+
+.container2
+{
+	width: 26.5%;
+	height: 50%;
+	background-color: white;
+	border: 2px solid black;
+	margin-left: 9%;
+	margin-top: 18%;
+	float: left;
+	border: 1px solid;
+	padding: 1px;
+	box-shadow: 5px 10px 8px black;
+
+}
+
+.container2 h3
+{
+	font-family: poppins;
+	font-size: 3rem;
+}
+
+.container2 .spot
+{
+    width: 80%;
+    height: 60%;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #d40000;
+	border: none;
+	margin-left: 9%;
+	border-radius: 4%;
+	transition: 0.3s ease;
+}
+
+.container2 .spot b
+{
+	font-size: 1.3rem;
+	font-family: poppins,sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+.container2 .spot:hover
+{
+	background-color: black;
+} 
+
+
+
+.container3
+{
+	
+    width: 26.5%;
+	height: 50%;
+	background-color: white;
+	border: 2px solid black;
+    margin-right: 1%;
+	border: 1px solid;
+	padding: 1px;
+	box-shadow: 5px 10px 8px black;
+	float: right;
+	margin-bottom: 10%;
+	margin-top: 18%;
+}
+
+.container3 h3
+{
+	font-family: poppins;
+	font-size: 2.8rem;
+}
+
+.container3 .spot
+{
+    width: 80%;
+    height: 60%;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #d40000;
+	border: none;
+	margin-left: 9%;
+	border-radius: 4%;
+	transition: 0.3s ease;
+}
+
+.container3 .spot b
+{
+	font-size: 1.3rem;
+	font-family: poppins,sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+.container3 .spot:hover
+{
+	background-color: black;
+}
+
+.footer
+{
+	width: 100%;
+	height: 80%;
+	background-color: black;
+	margin-top: 20%;
+}
+
+.footer .sec b
+{
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: poppins , century-gothic;
+	margin-left: 27%;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+@media screen and (min-width: 768px)
+{
+
+	.content
+{
+	
+	background-image: url("333.jpg");
+	height: 100%;
+
+}
+   
+}
+
+@media screen and (min-width: 1024px)
+{
+    
+    .content
+    {
+    	background-image: url("333.jpg");
+	    height: 60vh;
+    	margin-top: 5%;
+    }
+     .video
+     {
+     	width: 120%;
+     }
+
+
+}
+
+
+@media screen and (min-width: 1440px)
+{
+
+	.header img
+{
+	width: 120px;
+	height: 120px;
+	margin-left: 4%;
+
+}
+
+.nav b
+{
+	padding: 5px 60px;
+	margin-right: 20%;
+}
