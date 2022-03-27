@@ -1,0 +1,97 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #69F0AE;
+}
+
+
+div
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+div input
+{
+	margin-top: 20%;
+	width: 80%;
+	padding-left: 2px;
+	border: 2px solid black;
+	font-size: 1.8rem;
+	font-family: 'Fredoka', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+	border-style: double;
+	box-shadow: 8px 8px 8px black;
+}
+
+
+.btn button
+{
+  background-color: #69F0AE;
+  box-shadow: 8px 8px 8px black;
+  border: 2px solid black;
+  color: black;
+  width: 60%;
+  border-radius: 25px;
+  font-family: 'Kanit', sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.btn button:hover
+{
+	background-color: #7C4DFF;
+	color: black;
+	transition: 0.3s ease;
+	border: 2px solid black;
+}
+
+.content textarea
+{
+	margin-top: 25%;
+	width: 90%;
+	padding-top: 5%;
+	padding-bottom: 35%;
+    border: 2px solid black;
+    padding-left: 2px;
+    font-size: 1.5rem;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    box-shadow: 4px 4px 4px black;
+
+ 
+}
+
+.header
+{
+	margin-bottom: 1%;
+	background-color: black;
+	border-bottom: 2px solid white;
+	position: fixed;
+	width: 100%;
+}
+
+.header h2
+{
+	font-size: 1.4rem;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Heebo', sans-serif;
+}
+

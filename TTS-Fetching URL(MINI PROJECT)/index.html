@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTS-FETCHING URL</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Smooch+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+
+<div class="header">
+		<h2><center>TTS - Fetching URL</center></h2> 
+</div>
+  
+
+  <!--Getting Url From User -->
+
+<div>
+	<input type="text" placeholder="Enter Url" onfocus="this.value=''">
+</div>
+
+  <br>
+  <br>
+
+<div class="btn">
+    <button>FETCH</button>
+    <br>
+</div>
+
+
+
+<!-- JavaScript Code To Display The Contents OF URL For Fetching --> 
+
+<script>
+      alert("Note:\n1) Enter Url And Copy Your Desired Content\n2) Paste Those Content In Artcile Box And Click Speak");
+        let btnopen = document.querySelector('button');
+        let input = document.querySelector('input');
+
+        btnopen.addEventListener('click', () => {
+
+          window.open(input.value, '_blank');
+        });
+</script>
+
+
+
+<!-- TextArea To Paste The User Required Information From The URL -->
+
+<div class="content">
+		<textarea id="text-to-speech" onfocus="this.value=''"> </textarea>
+</div>
+
+    <br>
+    <br>
+
+<div class="btn">
+    <button onclick="textToAudio()">SPEAK</button>
+</div>
+
+
+
+<!-- JavaScript Code To Make The Information To Speak With Audio -->
+
+<script>
+       function textToAudio() {
+
+             let  msg = document.getElementById("text-to-speech").value;
+             let speech = new SpeechSynthesisUtterance();
+
+               speech.lang = "en-IN";
+               speech.text = msg;
+               speech.volume = 500;
+               speech.rate = 0.7;
+               speech.pitch = 1;                
+
+            window.speechSynthesis.speak(speech);
+    
+    }
+</script>
+
+    <br>
+    <br>
+
+
+
+<!-- Download Button To Download The Information(User Pasted) In a Text Format -->
+
+<div class="btn">
+    <button onclick="saveFile()">Download</button>
+</div>
+
+
+<!-- JavaScript Code To Download Information In Text -->  
+  
+<script>
+    let saveFile = () => {
+
+        const msg = document.getElementById('text-to-speech');
+        let data = msg.value;
+
+        const BLOB = new Blob([data], { type: 'text/plain'} );
+        const savefile = 'TextArticles.txt';
+
+        let newlink = document.createElement("a");
+        newlink.download = savefile;
+        
+        if (window.webkitURL != null) {
+            newlink.href = window.webkitURL.createObjectURL(BLOB);
+        }
+        else {
+            newlink.href = window.URL.createObjectURL(BLOB);
+            newlink.style.display = "none";
+            document.body.appendChild(newlink);
+        }
+
+        newlink.click(); 
+    } 
+</script>
+
+</body>
+</html>
