@@ -1,0 +1,87 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo
+ {
+ 	width: 100%;
+ 	height: 260px;
+ 	background-color: black;
+ }
+
+ .logo img 
+ {
+ 	height: 180px;
+ 	margin-left: 2%;
+ 	margin-top: 1%;
+ }
+
+ .logo b
+ {
+ 	color: white;
+ 	font-size: 6rem;
+ 	margin-left: 16%;
+ 	margin-bottom: 3%;
+ 	letter-spacing: 4px;
+ 	font-family: 'Staatliches', cursive;
+ 	font-weight: 1000;
+
+ }
+ 
+ p
+ {
+ 	font-size: 6rem;
+ 	font-weight: bold;
+ 	font-family: 'Roboto Slab', serif;
+font-family: 'Staatliches', cursive;
+ 	text-decoration: underline;
+ 	margin-left: 2%;
+ 	letter-spacing: 4px;
+ }
+
+ strong
+ {
+ 	font-size: 6rem;
+ 	font-family: 'Anton', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Staatliches', cursive;
+ 	font-weight: 800;
+ 	margin-left: 2%;
+ }
+
+ audio 
+ {
+ 	width: 83%;
+ 	margin-left: 9%;
+ 	height: 70px;
+ }
+
+ .footer 
+ {
+ 	width: 100%;
+ 	height: 500px;
+ 	background-color: black;
+ }
+
+ .footer b
+ {
+ 	color: white;
+ 	font-family: 'Anton', sans-serif;
+font-family: monospace;
+ 	font-size: 25px;
+ 	margin-left: 18%;
+
+ }
+
+ .footer img
+ {
+ 	margin-left: 3%;
+ }
+ 
+ html
+ {
+ 	scroll-behavior: smooth;
+ }
