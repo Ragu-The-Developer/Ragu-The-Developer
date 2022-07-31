@@ -1,0 +1,120 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: black;
+}
+.logo
+{
+	text-align: center;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+}
+
+.img-head
+{
+ margin-top: 4%;
+ margin-left: 2%;
+}
+
+.img-head img{
+    animation: slide-up 10s;
+}
+@keyframes slide-up
+{
+	from
+	{
+		opacity: 0;
+	}
+
+	to{
+        opacity: 2;
+        
+	}
+}
+.content
+{
+	margin-left: 50%;
+	margin-top: -31%;
+}
+
+h1
+{
+	font-size: 2rem;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	letter-spacing: 3px;
+	margin-left: 25%;
+	animation: slide-up 5s;
+
+}
+
+@keyframes slide-up
+{
+	from
+	{
+		opacity: 0.2;
+		line-height: 200px;
+	}
+
+	to{
+        opacity: 1;
+        line-height: 25px;
+	}
+}
+
+p{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.3rem;
+	margin-right: 10%;
+	text-align: center;
+	margin-top: 4%;
+	animation: slide-up 2s;
+}
+
+@keyframes slide-up
+{
+	from
+	{
+		opacity: 0.2;
+		line-height: 250px;
+	}
+
+	to{
+        opacity: 1;
+        line-height: 30px;
+	}
+}
+
+.btn{
+  margin-left: 65%;
+  margin-top: 2%;
+}
+button
+{
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 25px;
+	color: white;
+	font-family: monospace;
+	font-weight: 600;
+    font-size: 1.1rem;
+    transition:  0.5s ease;
+}
+
+button:hover
+{
+	background-color: white;
+	color: black;
+}
