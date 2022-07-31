@@ -1,0 +1,122 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.name h4
+{
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: -41%;
+  margin-left: 50%;
+}
+
+.name strong h1
+{
+	margin-left: 50%;
+	margin-bottom: 30%;
+	margin-top: 2%;
+	font-family: fantasy;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.price
+{
+	margin-left: 50%;
+	margin-top: -27%;
+} 
+
+.price h3
+{
+	font-size: 1.5rem;
+	font-family: cursive;
+	font-weight: 600;
+}
+
+.price h4
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 1.5px;
+}
+
+.inputs
+{
+	margin-left: 50%;
+	margin-top: 3%;
+}
+
+.inputs .user
+{
+	width: 50%;
+	font-size: 1rem;
+	padding: 8px;
+	font-family: fantasy;
+	border: 1px solid gray;
+}
+
+.order
+{
+	margin-left: 51%;
+	margin-top: 5%;
+}
+
+.order button
+{
+	width: 44%;
+	cursor: pointer;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1rem;
+	font-weight: 550;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+    background-color: #FF9900;
+    color: black;
+    box-shadow: 2px 4px #111;
+    transition: 0.5s ease;
+}
+
+.order button:hover
+{
+	background-color: transparent;
+	color: white;
+}
+
+
+
+.order2
+{
+	margin-left: 51%;
+	margin-top: 1%;
+}
+
+.order2 button
+{
+	width: 44%;
+	cursor: pointer;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1rem;
+	font-weight: 550;
+	border: 0.2px solid black;
+	border-radius: 25px;
+	padding: 10px;
+    background-color: #e42c31;
+    color: white;
+    box-shadow: 2px 4px #111;
+    transition: 0.5s ease;
+}
+
+.order2 button:hover
+{
+	background-color: transparent;
+	color: black;
+	border: none;
+
+}
