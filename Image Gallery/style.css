@@ -1,0 +1,32 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.gallery
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.gallery img
+{
+	width: 400px;
+	height: 300px;
+	border: 2px solid white;
+	border-radius: 13px;
+	box-shadow: 4px 7px 7px #00000042;
+	cursor: pointer;
+	margin: 10px;
+	transition: 400ms;
+}
+
+.gallery img:hover
+{
+	filter: grayscale(1);
+	transform: scale(1.03);
+
+}
