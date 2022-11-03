@@ -1,0 +1,59 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	height: 100vh;
+	display: flex;
+}
+
+.code-den
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	border-right: 1px solid #555;
+}
+
+#HTML
+{
+	height: 35%;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+
+#CSS
+{
+	height: 35%;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+
+#JavaScript
+{
+	height: 35%;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+
+.code-den textarea
+{
+	resize: none;
+	outline: none;
+	width: 100%;
+	font-size: 1rem;
+	font-family: verdana;
+}
+
+.preview iframe
+{
+	width: 250%;
+	height: 100%;
+}
