@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Orbitron:wght@500&family=Tilt+Warp&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.box-model1
+{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	background-color: lightskyblue;
+	box-shadow: 0px 15px 25px 0px dimgray;
+}
+
+
+
+img
+{
+	width: 20%;
+	height: 20%;
+	margin-top: 8%;
+	border-radius: 15px;
+}
+
+h2
+{
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Tilt Warp', cursive;
+  margin-top: 2%;
+}
+
+p
+{
+ font-weight: lighter;
+ font-family: 'Montserrat', sans-serif;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Tilt Warp', cursive;
+}
+
