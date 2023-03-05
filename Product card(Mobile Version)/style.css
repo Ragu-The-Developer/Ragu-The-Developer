@@ -1,0 +1,76 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: papayawhip;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+
+h3
+{
+	font-family: montserrat;
+	font-size: 1rem;
+	font-weight: lighter;
+	text-align: left;
+	padding-top: 5%;
+	padding-left: 3%;
+	letter-spacing: 3px;
+}
+
+h1
+{
+	font-size: 2rem;
+	font-family: 'Fraunces';
+	font-weight: 700;
+}
+
+p
+{
+	margin-top: 5%;
+	font-family: cursive;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+h2
+{
+	font-size: 2rem;
+	font-family: monospace;
+	color: darkgreen;
+	margin-top: 5%;
+}
+
+.design
+{
+	font-size: 1rem;
+	color: black;
+    padding-left: 4%;
+}
+
+.btn
+{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	background-color: darkgreen;
+	margin-top: 10%;
+	padding: 14px;
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+	display: block;
+	color: white;
+}
+
+
+
+
