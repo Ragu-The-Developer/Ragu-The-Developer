@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	justify-content: space-around;
+	height: 100vh;
+	background-color: hsl(204, 43%, 93%);
+	margin-top: 10%;
+}
+
+.first-content
+{
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+}
+
+.first-content h3
+{
+	font-family: 'Karla', sans-serif;
+	color: hsl(179, 62%, 43%);
+	font-size: 1.5rem;
+}
+
+.first-content h4
+{
+	font-family: 'Karla', sans-serif;
+	color: hsl(71, 73%, 54%);
+}
+
+.first-content p
+{
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	color: hsl(218, 22%, 67%);
+}
+
+.second-content
+{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+.box1
+{
+	width: 100%;
+	background-color:  hsl(179, 62%, 43%);
+	padding: 50px;
+}
+
+.box1 h3
+{
+  font-family: 'Karla', sans-serif;
+  color: white; 
+}
+
+.box1 h4
+{
+	 font-family: 'Karla', sans-serif;
+	font-size: 2rem;
+}
+
+span 
+{
+	 font-family: 'Karla', sans-serif;
+	 font-size: 1.2rem;
+     margin-left: 6%;
+	 color: hsl(218, 22%, 67%);
+}
+
+.second-content p
+{
+	 font-family: 'Karla', sans-serif;
+	 font-size: 0.9rem;
+	 font-weight: bold;
+}
+
+.btn
+{
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  width: 90%;
+  padding: 10px;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+  margin-top: 5%;
+}
+
+.box2
+{
+	width: 100%;
+	background-color:  hsl(218, 22%, 67%);
+	padding: 50px;
+}
+
+.box2 h3
+{
+	font-family: 'Karla', sans-serif;
+}
+
+.box2 p
+{
+	font-family: 'Karla', sans-serif;
+	margin-top: 3%;
+	font-weight: 500;
+	color: white;
+	font-size: 1rem;
+
+}
