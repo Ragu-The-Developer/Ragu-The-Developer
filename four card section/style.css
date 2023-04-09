@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-family: 'Poppins',sans-serif;
+}
+
+.header
+{
+	margin: 2rem auto;
+	padding: 0,3rem;
+	text-align: center;
+	width: 35%;
+}
+.title
+{
+	font-weight: 200;
+	text-align: center;
+	font-size: 2rem;
+	color: hsl(234, 12%, 34%);
+}
+
+.subtitle
+{
+	font-weight: 600;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.para
+{
+	font-weight: 400;
+	font-size: 1rem;
+	text-align: center; 
+	color: hsl(229, 6%, 66%);
+	margin-top: 3%;
+} 
+
+.card-box
+{
+	margin: 7.5rem 8% 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6%;
+	justify-content: center;
+}
+
+.card-supervisor
+{
+	border-radius: .5rem;
+	padding: 25px;
+	margin-bottom: 3rem;
+	box-shadow: 0 1rem 2rem .5rem #dedede;
+	width: 30%;
+	border-top: .5rem solid hsl(180, 62%, 55%);
+}
+
+
+.card-teambuilder
+{
+	border-radius: .5rem;
+	padding: 25px;
+	margin-bottom: 3rem;
+	box-shadow: 0 1rem 2rem .5rem #dedede;
+	width: 30%;
+	border-top: .5rem solid hsl(0, 78%, 62%);
+}
+
+.card-karma
+{
+	border-radius: .5rem;
+	padding: 25px;
+	margin-bottom: 3rem;
+	box-shadow: 0 1rem 2rem .5rem #dedede;
+	width: 30%;
+	border-top: .5rem solid hsl(34, 97%, 64%);
+}
+
+.card-calculator
+{
+	border-radius: .5rem;
+	padding: 25px;
+	margin-bottom: 3rem;
+	box-shadow: 0 1rem 2rem .5rem #dedede;
+	width: 30%;
+	border-top: .5rem solid  hsl(212, 86%, 64%);
+}
+
+.supervisor
+{
+	margin: 0;
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+
+.teambuilder
+{
+	margin: 0;
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+
+.karma
+{
+	margin: 0;
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+
+.calculator
+{
+	margin: 0;
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+
+.subsupervisor
+{
+	color: hsl(229, 6%, 66%);
+	font-size: 1rem;
+	padding-top: 3%;
+}
+
+.subteambuilder
+{
+	color: hsl(229, 6%, 66%);
+	font-size: 1rem;
+	padding-top: 3%;
+}
+
+.subkarma
+{
+	color: hsl(229, 6%, 66%);
+	font-size: 1rem;
+	padding-top: 3%;
+}
+
+.subcalculator
+{
+	color: hsl(229, 6%, 66%);
+	font-size: 1rem;
+	padding-top: 3%;
+}
+
+.image
+{
+	padding-top: 8%;
+	display: flex;
+	justify-content: right;
+}
