@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.result
+{
+	width: 60%;
+	height: 100%;
+	padding: 3rem;
+	text-align: center;
+	background-color: hsl(241, 81%, 54%);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+b
+{
+	color: hsl(241, 100%, 89%);
+}
+
+p
+{
+	color: hsl(241, 100%, 89%);
+}
+
+h1 
+{
+	color: white;
+}
+
+h3
+{
+	color: white;
+}
+
+.circle
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: hsla(256, 72%, 46%, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 22%;
+}
+
+
+h2
+{
+	margin-top: 5%;
+}
+
+
+.badge
+{
+	display: flex;
+	gap: 15%;
+	padding: 2%;
+}
+
+
+button 
+{
+	width: 60%;
+	background-color: hsl(224, 30%, 27%);
+	padding: 15px;
+	color: white;
+	border-radius: 50px;
+	font-size: 1rem;
+	margin-top: 5%;
+}
