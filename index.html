@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form id="expenseForm">
+            <input type="text" id="expenseName" placeholder="Expense Name" required>
+            <input type="number" id="expenseAmount" placeholder="Expense Amount" required>
+            <input type="submit" value="Add Expense">
+        </form>
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script>
+        const expenseForm = document.getElementById('expenseForm');
+        const expenseList = document.getElementById('expenseList');
+
+        expenseForm.addEventListener('submit', addExpense);
+
+        function addExpense(event) {
+            event.preventDefault();
+
+            const expenseNameInput = document.getElementById('expenseName');
+            const expenseAmountInput = document.getElementById('expenseAmount');
+
+            const expenseName = expenseNameInput.value;
+            const expenseAmount = parseFloat(expenseAmountInput.value);
+
+            if (expenseName && !isNaN(expenseAmount)) {
+                const expenseItem = document.createElement('li');
+                expenseItem.innerHTML = `
+                    <span>${expenseName}</span>
+                    <span>$${expenseAmount.toFixed(2)}</span>
+                    <button class="delete-btn">Delete</button>
+                `;
+                expenseList.appendChild(expenseItem);
+
+                expenseNameInput.value = '';
+                expenseAmountInput.value = '';
+
+                const deleteBtn = expenseItem.querySelector('.delete-btn');
+                deleteBtn.addEventListener('click', () => {
+                    expenseItem.remove();
+                });
+            } else {
+                alert('Please enter valid expense name and amount.');
+            }
+        }
+    </script>
+</body>
+</html>
